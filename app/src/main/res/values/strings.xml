@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WeChar2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="string_weixin">聊天吗</string>
+    <string name="string_friends">嘿朋友你好</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_address_fragment">找人就来通讯录</string>
+    <string name="hello_settings_fragment">你可以在这里设置</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

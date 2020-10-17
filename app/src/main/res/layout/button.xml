@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:background="#c8b6da"
+>
+
+
+    <LinearLayout
+        android:id="@+id/tab_weixin"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/tab_weixin_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#c8b6da"
+            android:clickable="false"
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@drawable/tab_weixin_normal" />
+
+        <TextView
+            android:id="@+id/tab_weixin_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:text="微信"
+            android:textColor="#2c3c5b"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_friends"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/tab_friends_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#c8b6da"
+            android:clickable="false"
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@drawable/tab_find_frd_normal" />
+
+        <TextView
+            android:id="@+id/tab_friends_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:text="狐朋狗友"
+            android:textColor="#2c3c5b"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_contacts"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/tab_contacts_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#c8b6da"
+            android:clickable="false"
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@drawable/tab_address_normal" />
+
+        <TextView
+            android:id="@+id/tab_contacts_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:text="通讯录"
+            android:textColor="#2c3c5b"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_settings"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+        <ImageButton
+            android:id="@+id/tab_settings_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#c8b6da"
+            android:clickable="false"
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@drawable/tab_settings_normal" />
+
+        <TextView
+            android:id="@+id/tab_settings_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:textColor="#2c3c5b"
+            android:textSize="15sp"
+            android:text="设置" />
+    </LinearLayout>
+
+</LinearLayout>
