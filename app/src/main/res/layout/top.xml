@@ -14,5 +14,5 @@
         android:layout_gravity="center_horizontal"
         android:textSize="35dp"
         android:textColor="#2c3c5b"
-        android:text="WeChar" />
+        android:text="WeChat" />
 </LinearLayout>
